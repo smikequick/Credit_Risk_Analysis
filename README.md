@@ -18,9 +18,9 @@ In this project, I deployed a number of machine learning models to predict credi
 
 * Random Over Sampler
 
-  *balanced accuracy score is 64.9%
-  *high risk precision is % with % sensitivity which yields an F1 score of %.
-  *
+  *balanced accuracy score is 64.5%
+  *high risk precision is 1% with 61% sensitivity which yields an F1 score of 2%.
+  *Given the large number of thw low risk population, its precision is 100% with a sensitivity of 68%
   
 ![Screen Shot 2022-01-10 at 6 31 37 PM](https://user-images.githubusercontent.com/87885677/148865552-91b86061-de28-496b-b559-5248d5ebaf19.png)
 
@@ -31,7 +31,7 @@ In this project, I deployed a number of machine learning models to predict credi
 
 * SMOTE
 
-  *balanced accuracy score is
+  *balanced accuracy score is 62.3%
   *high risk precision is % with % sensitivity which yields an F1 score of %.
   *
 
@@ -39,7 +39,7 @@ In this project, I deployed a number of machine learning models to predict credi
 
 <br>
 
-![Screen Shot 2022-01-10 at 6 32 42 PM](https://user-images.githubusercontent.com/87885677/148865660-cc04c0ca-3503-445a-9a79-ff55809058d4.png)
+![Screen Shot 2022-01-10 at 6 40 31 PM](https://user-images.githubusercontent.com/87885677/148866416-edf4fc44-ef96-4341-9851-b9acf79eeeac.png)
 
 
 * Cluster Centroids
@@ -78,7 +78,7 @@ In this project, I deployed a number of machine learning models to predict credi
 
 <br>
 
-![Screen Shot 2022-01-10 at 6 35 01 PM](https://user-images.githubusercontent.com/87885677/148865893-679958fe-b584-44c3-8f02-2877ae5fc840.png)
+![Screen Shot 2022-01-10 at 6 41 25 PM](https://user-images.githubusercontent.com/87885677/148866487-13f5d91c-5d25-4e8b-9eed-60d2e0947f79.png)
 
 
 * Easy Ensemble Classifier
@@ -91,7 +91,7 @@ In this project, I deployed a number of machine learning models to predict credi
 
 <br>
 
-![Screen Shot 2022-01-10 at 6 35 44 PM](https://user-images.githubusercontent.com/87885677/148865964-5b358a23-4659-45f1-ace0-142d11a0c9a4.png)
+![Screen Shot 2022-01-10 at 6 41 49 PM](https://user-images.githubusercontent.com/87885677/148866523-6bc942ca-0714-4479-b8a6-4bf2551a2fd9.png)
 
 
 ## **Summary**
