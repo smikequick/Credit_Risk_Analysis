@@ -20,7 +20,7 @@ In this project, I deployed a number of machine learning models to predict credi
 
   *balanced accuracy score is 64.5%
   *high risk precision is 1% with 61% sensitivity which yields an F1 score of 2%.
-  *Given the large number of thw low risk population, its precision is 100% with a sensitivity of 68%
+  *Given the large number of the low risk population, its precision is 100% with a sensitivity of 68%
   
 ![Screen Shot 2022-01-10 at 6 31 37 PM](https://user-images.githubusercontent.com/87885677/148865552-91b86061-de28-496b-b559-5248d5ebaf19.png)
 
@@ -32,8 +32,8 @@ In this project, I deployed a number of machine learning models to predict credi
 * SMOTE
 
   *balanced accuracy score is 62.3%
-  *high risk precision is % with % sensitivity which yields an F1 score of %.
-  *
+  *high risk precision is 1% with 61% sensitivity which yields an F1 score of 2%.
+  *Given the large number of the low risk population, its precision is 100% with a sensitivity of 64%
 
 ![Screen Shot 2022-01-10 at 6 32 28 PM](https://user-images.githubusercontent.com/87885677/148865627-72bb1308-997e-44b5-b933-905d56e382f2.png)
 
@@ -44,9 +44,9 @@ In this project, I deployed a number of machine learning models to predict credi
 
 * Cluster Centroids
 
-  *balanced accuracy score is
-  *high risk precision is % with % sensitivity which yields an F1 score of %.
-  *
+  *balanced accuracy score is 52.9%
+  *high risk precision is 1% with 61% sensitivity which yields an F1 score of 1%.
+  *Since there is a high number of false positives, the low risk sensitivity is 45%.
   
 ![Screen Shot 2022-01-10 at 6 33 06 PM](https://user-images.githubusercontent.com/87885677/148865710-784a5d0e-1577-4c96-a97b-b8488dbabbba.png)
 
@@ -57,9 +57,9 @@ In this project, I deployed a number of machine learning models to predict credi
 
 * SMOTEENN
 
-  *balanced accuracy score is
-  *high risk precision is % with % sensitivity which yields an F1 score of %.
-  *
+  *balanced accuracy score is 65.3%
+  *high risk precision is 1% with 69% sensitivity which yields an F1 score of 2%.
+  *Since there is a high number of false positives, thw low risk sensitivity is 62%.
   
 ![Screen Shot 2022-01-10 at 6 33 50 PM](https://user-images.githubusercontent.com/87885677/148865772-f327063f-1a5b-41c4-8d12-030ab7babb52.png)
 
@@ -70,9 +70,9 @@ In this project, I deployed a number of machine learning models to predict credi
 
 * Balanced Random Forest Classifier
 
-  *balanced accuracy score is
-  *high risk precision is % with % sensitivity which yields an F1 score of %.
-  *
+  *balanced accuracy score is 78.7%
+  *high risk precision is 4% with 67% sensitivity which yields an F1 score of 7%.
+  *Since there are a lower number of false positives, the low risk sensitivity is now 91% with 100% precision.
 
 ![Screen Shot 2022-01-10 at 6 34 48 PM](https://user-images.githubusercontent.com/87885677/148865875-6769085f-023b-489e-8d13-b16e715b9f07.png)
 
@@ -83,9 +83,9 @@ In this project, I deployed a number of machine learning models to predict credi
 
 * Easy Ensemble Classifier
 
-  *balanced accuracy score is
-  *high risk precision is % with % sensitivity which yields an F1 score of %.
-  *
+  *balanced accuracy score is 92.5%
+  *high risk precision is 7% with 91% sensitivity which yields an F1 score of 14%.
+  *Since there are a lower number of false positives, the low risk sensitivity is 94% with 100% precision.
 
 ![Screen Shot 2022-01-10 at 6 35 24 PM](https://user-images.githubusercontent.com/87885677/148865937-3b0e4869-1062-4a1a-ad75-6a632520f1e5.png)
 
@@ -96,4 +96,4 @@ In this project, I deployed a number of machine learning models to predict credi
 
 ## **Summary**
 
-
+Despite leveraging a variety of machine learning models, each model that was deployed showed relatively weak precision in determining if a credit risk is high. There was definitely improvement with the Emsemble models (i.e. Balanced Random Forest and Easy Ensemble Classifiers), specifically on the sensitivity of the high risk credit. The Easy Ensemble Classifier model shows 92.5% recall meaning that it detects almost all high risk credit. Conversely, with low precision (7%), a lot of low risk credit is incorrectly identified as high risk. This ultimately leads to my decision to not recommend LendingClub to utilize any of these models to predict credit risk.
